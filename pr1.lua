@@ -32,7 +32,7 @@ if tonumber(cost) == nil or tonumber(cost) < 0 then
 	until (tonumber(cost) ~= nil and tonumber(cost) > 0)
 elseif tonumber(cost) == 0 then
 	repeat
-		print("No, no, I won't calculateui. Repeat, please")
+		print("No, no, I won't calculate. Repeat, please")
 		cost = io.read()
 	until (tonumber(cost) ~= 0 and tonumber(cost) ~= nil and tonumber(cost) > 0 )
 end
